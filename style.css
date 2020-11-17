@@ -1,0 +1,22 @@
+.bcg {
+    position: absolute;
+    background-image: url(./billy-huynh-W8KTS-mhFUE-unsplash.jpg);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mask {
+    position: absolute;
+    background-image: url(./text-mask2.png);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    z-index: 2;
+}
+
+body {
+    /* background-color: black; */
+    overflow: hidden;
+}
